@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    display: block;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+}
+
+.header{
+    padding: 1% 0% 0% 10%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+    
+}
+
+.header__menu__link {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 30px;
+    font-weight: 400;
+    color: #22D4FD;
+    margin: 0 10px;
+    padding: 1px 15px;
+    text-decoration: none;
+}
+
+.header__menu__link:hover {
+    cursor: pointer;
+    color: #e46319;
+}
+
+
+.presentacion {
+    padding: 2% 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.presentacion__contenido{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.presentacion__contenido__titulo{
+    font-size: 25px;
+    font-family: "Krona One", serif;  
+}
+
+.titulo-destaque {
+    color: #22d1fd; ;
+}
+
+.presentacion__contenido__texto{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.span{
+    color:#f58319
+}
+
+.presentacion__contenido__cursos{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.strong{
+    color: #1983f5;
+}
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.presentacion__enlace__subtitulo{
+    font-family: 'krona One', sans serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.presentacion__enlaces__link{
+    width: 320px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 580;
+    text-decoration: none;
+    color: #F6F6F6;
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacion__enlaces__link:hover{
+    cursor: pointer;
+    background-color: #272727;
+}
+
+.footer{
+    background-color: #22D4FD;
+    padding: 50px;
+    color: #000000;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer {
+    padding: 50px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-variant: inherit;
+}
+
+.presentacion__contenido__texto a{
+    text-decoration: none;
+    color: #f5310e;
+}
+
+
